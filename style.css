@@ -70,22 +70,22 @@
     color: #111727;
   }
   
-
+  /* Social Icons */
   .social-buttons img {
     margin: 0 10px;
     width: 40px;
     height: 40px;
   }
   
-
+  /* Right Section Styling */
   .position-relative img {
     height: 100%;
     object-fit: cover;
   }
   
   .btn-signin {
-    top: 20px; 
-    left: 20px; 
+    top: 20px;
+    right: 20px;
     padding: 10px 20px;
     background: none;
     color: white;
@@ -100,3 +100,23 @@
     background: white;
     color: black;
   }
+
+  /* btn  */
+  .btn-signin-in {
+    top: 20px; 
+    left: 20px; 
+    padding: 10px 20px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .btn-signin-in:hover {
+    background: white;
+    color: black;
+  }
+  
