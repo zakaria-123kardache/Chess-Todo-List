@@ -9,68 +9,86 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Chess-Todo-List</title>
   </head>
   <body>
-    <div class="container d-flex">
-      <div class="bg">
-        <div class="login-box">
-          <p>Login</p>
-          <p>
-            Register now and lorem lorem vhvh zvdhvee egvj gvgf for this day
-            and another day you can do it and do.
-          </p>
-          <form>
-            <div class="user-box">
-              <input required="true" name="email" type="email" />
-              <label for="email">Email</label>
-            </div>
-            <div class="user-box">
-              <input required="true" name="password" type="password" />
-              <label for="password">Password</label>
-            </div>
-            <div class="col d-flex justify-content-center">
-              <div class="form-check">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value=""
-                  id="form2Example31"
-                  checked
-                />
-                <label class="form-check-label" for="form2Example31">
-                  Remember me
-                </label>
+    <div class="container py-5 px-5 bg">
+      <div class="row justify-content-between bg-white rounded-start-4 shadow">
+    
+        <div class="col-lg-7 d-flex justify-content-center align-items-center">
+          <div class="login-card py-lg-0 py-5">
+            <h2 class="fw-semibold">Login</h2>
+            <p class="fw-light">
+              Register now and lorem ipsum dolor sit amet. This is your day and
+              another day to achieve your goals.
+            </p>
+            <form action="#" class="form">
+              <div class="row">
+                <div class="mb-3 col-12">
+                  <label for="" class="mb-1 fw-medium">Email</label>
+                  <input
+                    type="email"
+                    class="form-control border-bottom"
+                    placeholder="Enter Email"
+                  />
+                </div>
+                <div class="col-12">
+                  <label for="" class="mb-1 fw-medium">Password</label>
+                  <input
+                    type="password"
+                    class="form-control border-bottom"
+                    placeholder="Enter Password"
+                  />
+                </div>
+                <div
+                  class="col-12 d-flex justify-content-between mt-3 checkbox"
+                >
+                  <div class="d-flex">
+                    <input class="form-check-input" type="checkbox" />
+                    <label for="" class="fw-medium ms-2"
+                      >Remember password</label
+                    >
+                  </div>
+                  <a href="#" class="fw-semibold text-decoration-none"
+                    >Forgot password</a
+                  >
+                </div>
               </div>
+              <button type="submit" class="btn btn-dark text-white mt-4 w-100">
+                Login
+              </button>
+            </form>
+            <div class="social-buttons text-center mt-4">
+              <img
+                src="https://img.icons8.com/color/48/000000/pawn.png"
+                alt="Chess Icon"
+              />
+              <img
+                src="https://img.icons8.com/color/48/000000/discord-logo.png"
+                alt="Discord Icon"
+              />
+              <img
+                src="https://img.icons8.com/color/48/000000/google-logo.png"
+                alt="Google Icon"
+              />
             </div>
-            <div class="col">
-              <a href="#!">Forgot password?</a>
-            </div>
-            <a href="#">Submit</a>
-          </form>
+          </div>
+        </div>
+
+       
+        <div class="col-lg-5 col-12 p-0">
+          <div class="position-relative">
+            <img
+              src="./img/Login_img.jfif"
+              alt="Background"
+              class="img-fluid w-100"
+            />
+            <button class="btn-signin position-absolute">Sign In →</button>
+          </div>
         </div>
       </div>
-      <div class="half-page">
-        <button class="btn-signup">Sign up</button>
-      </div>
     </div>
-
     <script src="app.js"></script>
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
