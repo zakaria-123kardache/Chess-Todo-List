@@ -14,84 +14,73 @@
   </head>
   <body>
     <div class="container py-5 px-5 bg">
-      <div class="row justify-content-between bg-white rounded-start-4 shadow">
-        <div class="col-lg-7 d-flex justify-content-center align-items-center">
-          <div class="login-card py-lg-0 py-5">
-            <h2 class="fw-semibold">Login</h2>
-            <p class="fw-light">
-              Register now and lorem ipsum dolor sit amet. This is your day and
-              another day to achieve your goals.
-            </p>
-            <form action="#" class="form">
-              <div class="row">
-                <div class="mb-3 col-12">
-                  <label for="" class="mb-1 fw-medium">Email</label>
-                  <input
-                    type="email"
-                    class="form-control border-bottom"
-                    placeholder="Enter Email"
-                  />
+        <div class="row justify-content-between bg-white rounded-start-4 shadow">
+      
+          
+          <div class="col-lg-7 d-flex justify-content-center align-items-center">
+            <div class="login-card py-lg-0 py-5">
+              <h2 class="fw-semibold">Login</h2>
+              <p class="fw-light">
+                Register now and lorem ipsum dolor sit amet. This is your day and
+                another day to achieve your goals.
+              </p>
+              <form action="#" class="form">
+      
+               
+                <div class="user-box">
+                  <input required type="email" name="email">
+                  <label>Email</label>
                 </div>
-                <div class="col-12">
-                  <label for="" class="mb-1 fw-medium">Password</label>
-                  <input
-                    type="password"
-                    class="form-control border-bottom"
-                    placeholder="Enter Password"
-                  />
+      
+            
+                <div class="user-box">
+                  <input required type="password" name="password">
+                  <label>Password</label>
                 </div>
-                <div
-                  class="col-12 d-flex justify-content-between mt-3 checkbox"
-                >
+      
+                
+                <div class="col-12 d-flex justify-content-between mt-3 checkbox">
                   <div class="d-flex">
-                    <input class="form-check-input" type="checkbox" />
-                    <label for="" class="fw-medium ms-2"
-                      >Remember password</label
-                    >
+                    <input class="form-check-input" type="checkbox" id="remember" />
+                    <label for="remember" class="fw-medium ms-2">Remember password</label>
                   </div>
-                  <a href="#" class="fw-semibold text-decoration-none"
-                    >Forgot password</a
-                  >
+                  <a href="#" class="fw-semibold text-decoration-none">Forgot password</a>
                 </div>
+      
+              
+                <button type="submit" class="btn btn-dark text-white mt-4 w-100">
+                  Login
+                </button>
+              </form>
+      
+              
+              <div class="social-buttons text-center mt-4">
+                <img src="https://img.icons8.com/color/48/000000/pawn.png" alt="Chess Icon" />
+                <img src="https://img.icons8.com/color/48/000000/discord-logo.png" alt="Discord Icon" />
+                <img src="https://img.icons8.com/color/48/000000/google-logo.png" alt="Google Icon" />
               </div>
-              <button type="submit" class="btn btn-dark text-white mt-4 w-100">
-                Login
-              </button>
-            </form>
-            <div class="social-buttons text-center mt-4">
-              <img
-                src="https://img.icons8.com/color/48/000000/pawn.png"
-                alt="Chess Icon"
-              />
-              <img
-                src="https://img.icons8.com/color/48/000000/discord-logo.png"
-                alt="Discord Icon"
-              />
-              <img
-                src="https://img.icons8.com/color/48/000000/google-logo.png"
-                alt="Google Icon"
-              />
             </div>
           </div>
-        </div>
-
-        <div class="col-lg-5 col-12 p-0">
-          <div class="position-relative">
-            <img
-              src="./img/Login_img.jfif"
-              alt="Background"
-              class="img-fluid w-100"
-            />
-            <a href="signin.html"
-              ><button class="btn-signin-in position-absolute">
-                Sign In →
-              </button></a
-            >
+      
+          <!-- Right Section (Image and Sign In Button) -->
+          <div class="col-lg-5 col-12 p-0">
+            <div class="position-relative">
+              <img
+                src="./img/Login_img.jfif"
+                alt="Background"
+                class="img-fluid w-100"
+              />
+              <a href="signin.html">
+                <button class="btn-signin-in position-absolute">Sign In →</button>
+              </a>
+            </div>
           </div>
+      
         </div>
       </div>
-    </div>
-
+      
+    
+    
     <script src="app.js"></script>
   </body>
 </html>

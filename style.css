@@ -82,7 +82,8 @@
     height: 100%;
     object-fit: cover;
   }
-  
+
+  /* btn */
   .btn-signin {
     top: 20px;
     right: 20px;
@@ -101,7 +102,7 @@
     color: black;
   }
 
-  /* btn  */
+  /* btn login */
   .btn-signin-in {
     top: 20px; 
     left: 20px; 
@@ -120,3 +121,63 @@
     color: black;
   }
   
+
+
+ .user-box {
+    position: relative;
+}
+
+ .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    outline: none;
+    background: transparent;
+}
+
+.user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #000000;
+    pointer-events: none;
+    transition: .5s;
+}
+
+ .user-box input:focus~label,
+ .user-box input:valid~label {
+    top: -20px;
+    left: 0;
+    color: rgb(255, 0, 0);
+    font-size: 12px;
+}
+
+/* .user-box form a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 3px;
+    border-radius: 20%;
+}
+
+.user-box a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 24px 0;
+}
+a:hover .user-box {
+    box-shadow: 0 0 24px 0 rgba(255, 204, 0, 0.404);
+} */
